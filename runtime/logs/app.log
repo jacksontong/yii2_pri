@@ -1,0 +1,440 @@
+2014-09-03 09:08:50 [127.0.0.1][-][-][error][yii\base\ErrorException:8] exception 'yii\base\ErrorException' with message 'Undefined variable: countries' in /var/www/basic/views/country/index.php:7
+Stack trace:
+#0 /var/www/basic/views/country/index.php(7): yii\base\ErrorHandler->handleError(8, 'Undefined varia...', '/var/www/basic/...', 7, Array)
+#1 /var/www/basic/vendor/yiisoft/yii2/base/View.php(313): require('/var/www/basic/...')
+#2 /var/www/basic/vendor/yiisoft/yii2/base/View.php(245): yii\base\View->renderPhpFile('/var/www/basic/...', Array)
+#3 /var/www/basic/vendor/yiisoft/yii2/base/View.php(147): yii\base\View->renderFile('/var/www/basic/...', Array, Object(app\controllers\CountryController))
+#4 /var/www/basic/vendor/yiisoft/yii2/base/Controller.php(362): yii\base\View->render('index', Array, Object(app\controllers\CountryController))
+#5 /var/www/basic/controllers/CountryController.php(41): yii\base\Controller->render('index', Array)
+#6 [internal function]: app\controllers\CountryController->actionIndex()
+#7 /var/www/basic/vendor/yiisoft/yii2/base/InlineAction.php(54): call_user_func_array(Array, Array)
+#8 /var/www/basic/vendor/yiisoft/yii2/base/Controller.php(147): yii\base\InlineAction->runWithParams(Array)
+#9 /var/www/basic/vendor/yiisoft/yii2/base/Module.php(423): yii\base\Controller->runAction('', Array)
+#10 /var/www/basic/vendor/yiisoft/yii2/web/Application.php(82): yii\base\Module->runAction('country', Array)
+#11 /var/www/basic/vendor/yiisoft/yii2/base/Application.php(353): yii\web\Application->handleRequest(Object(yii\web\Request))
+#12 /var/www/basic/web/index.php(12): yii\base\Application->run()
+#13 {main}
+2014-09-03 09:08:50 [127.0.0.1][-][-][info][application] $_GET = array (
+  'r' => 'country',
+)
+
+$_COOKIE = array (
+  '_csrf' => '58219ea65767091bdf6885c3736d9133b3a23ed8412fce030861decaa5b920b3s:32:"LVloS_5FZcyba9PFfEQNUWjqyhsfUbfY";',
+  'PHPSESSID' => 'eiunejms63lmvq89u0rp88li67',
+)
+
+$_SERVER = array (
+  'HTTP_HOST' => 'basic.com',
+  'HTTP_CONNECTION' => 'keep-alive',
+  'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/37.0.2062.94 Safari/537.36',
+  'HTTP_ACCEPT_ENCODING' => 'gzip,deflate,sdch',
+  'HTTP_ACCEPT_LANGUAGE' => 'vi,en-US;q=0.8,en;q=0.6,pt;q=0.4',
+  'HTTP_COOKIE' => '_csrf=58219ea65767091bdf6885c3736d9133b3a23ed8412fce030861decaa5b920b3s%3A32%3A%22LVloS_5FZcyba9PFfEQNUWjqyhsfUbfY%22%3B; PHPSESSID=eiunejms63lmvq89u0rp88li67',
+  'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin',
+  'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Ubuntu) Server at basic.com Port 80</address>
+',
+  'SERVER_SOFTWARE' => 'Apache/2.4.7 (Ubuntu)',
+  'SERVER_NAME' => 'basic.com',
+  'SERVER_ADDR' => '127.0.0.3',
+  'SERVER_PORT' => '80',
+  'REMOTE_ADDR' => '127.0.0.1',
+  'DOCUMENT_ROOT' => '/var/www/basic',
+  'REQUEST_SCHEME' => 'http',
+  'CONTEXT_PREFIX' => '',
+  'CONTEXT_DOCUMENT_ROOT' => '/var/www/basic',
+  'SERVER_ADMIN' => 'admin@basic.com',
+  'SCRIPT_FILENAME' => '/var/www/basic/web/index.php',
+  'REMOTE_PORT' => '51084',
+  'GATEWAY_INTERFACE' => 'CGI/1.1',
+  'SERVER_PROTOCOL' => 'HTTP/1.1',
+  'REQUEST_METHOD' => 'GET',
+  'QUERY_STRING' => 'r=country',
+  'REQUEST_URI' => '/web/index.php?r=country',
+  'SCRIPT_NAME' => '/web/index.php',
+  'PHP_SELF' => '/web/index.php',
+  'REQUEST_TIME_FLOAT' => 1409735330.6110001,
+  'REQUEST_TIME' => 1409735330,
+)
+2014-09-03 09:09:06 [127.0.0.1][-][-][error][yii\base\ErrorException:8] exception 'yii\base\ErrorException' with message 'Undefined variable: countries' in /var/www/basic/views/country/index.php:7
+Stack trace:
+#0 /var/www/basic/views/country/index.php(7): yii\base\ErrorHandler->handleError(8, 'Undefined varia...', '/var/www/basic/...', 7, Array)
+#1 /var/www/basic/vendor/yiisoft/yii2/base/View.php(313): require('/var/www/basic/...')
+#2 /var/www/basic/vendor/yiisoft/yii2/base/View.php(245): yii\base\View->renderPhpFile('/var/www/basic/...', Array)
+#3 /var/www/basic/vendor/yiisoft/yii2/base/View.php(147): yii\base\View->renderFile('/var/www/basic/...', Array, Object(app\controllers\CountryController))
+#4 /var/www/basic/vendor/yiisoft/yii2/base/Controller.php(362): yii\base\View->render('index', Array, Object(app\controllers\CountryController))
+#5 /var/www/basic/controllers/CountryController.php(41): yii\base\Controller->render('index', Array)
+#6 [internal function]: app\controllers\CountryController->actionIndex()
+#7 /var/www/basic/vendor/yiisoft/yii2/base/InlineAction.php(54): call_user_func_array(Array, Array)
+#8 /var/www/basic/vendor/yiisoft/yii2/base/Controller.php(147): yii\base\InlineAction->runWithParams(Array)
+#9 /var/www/basic/vendor/yiisoft/yii2/base/Module.php(423): yii\base\Controller->runAction('index', Array)
+#10 /var/www/basic/vendor/yiisoft/yii2/web/Application.php(82): yii\base\Module->runAction('country/index', Array)
+#11 /var/www/basic/vendor/yiisoft/yii2/base/Application.php(353): yii\web\Application->handleRequest(Object(yii\web\Request))
+#12 /var/www/basic/web/index.php(12): yii\base\Application->run()
+#13 {main}
+2014-09-03 09:09:06 [127.0.0.1][-][-][info][application] $_GET = array (
+  'r' => 'country/index',
+)
+
+$_COOKIE = array (
+  '_csrf' => '58219ea65767091bdf6885c3736d9133b3a23ed8412fce030861decaa5b920b3s:32:"LVloS_5FZcyba9PFfEQNUWjqyhsfUbfY";',
+  'PHPSESSID' => 'eiunejms63lmvq89u0rp88li67',
+)
+
+$_SERVER = array (
+  'HTTP_HOST' => 'basic.com',
+  'HTTP_CONNECTION' => 'keep-alive',
+  'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/37.0.2062.94 Safari/537.36',
+  'HTTP_ACCEPT_ENCODING' => 'gzip,deflate,sdch',
+  'HTTP_ACCEPT_LANGUAGE' => 'vi,en-US;q=0.8,en;q=0.6,pt;q=0.4',
+  'HTTP_COOKIE' => '_csrf=58219ea65767091bdf6885c3736d9133b3a23ed8412fce030861decaa5b920b3s%3A32%3A%22LVloS_5FZcyba9PFfEQNUWjqyhsfUbfY%22%3B; PHPSESSID=eiunejms63lmvq89u0rp88li67',
+  'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin',
+  'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Ubuntu) Server at basic.com Port 80</address>
+',
+  'SERVER_SOFTWARE' => 'Apache/2.4.7 (Ubuntu)',
+  'SERVER_NAME' => 'basic.com',
+  'SERVER_ADDR' => '127.0.0.3',
+  'SERVER_PORT' => '80',
+  'REMOTE_ADDR' => '127.0.0.1',
+  'DOCUMENT_ROOT' => '/var/www/basic',
+  'REQUEST_SCHEME' => 'http',
+  'CONTEXT_PREFIX' => '',
+  'CONTEXT_DOCUMENT_ROOT' => '/var/www/basic',
+  'SERVER_ADMIN' => 'admin@basic.com',
+  'SCRIPT_FILENAME' => '/var/www/basic/web/index.php',
+  'REMOTE_PORT' => '51090',
+  'GATEWAY_INTERFACE' => 'CGI/1.1',
+  'SERVER_PROTOCOL' => 'HTTP/1.1',
+  'REQUEST_METHOD' => 'GET',
+  'QUERY_STRING' => 'r=country/index',
+  'REQUEST_URI' => '/web/index.php?r=country/index',
+  'SCRIPT_NAME' => '/web/index.php',
+  'PHP_SELF' => '/web/index.php',
+  'REQUEST_TIME_FLOAT' => 1409735346.2809999,
+  'REQUEST_TIME' => 1409735346,
+)
+2014-09-03 09:09:43 [127.0.0.1][-][-][error][yii\base\InvalidConfigException] exception 'yii\base\InvalidConfigException' with message 'The table does not exist: {{%country_search}}' in /var/www/basic/vendor/yiisoft/yii2/db/ActiveRecord.php:257
+Stack trace:
+#0 /var/www/basic/vendor/yiisoft/yii2/db/ActiveRecord.php(286): yii\db\ActiveRecord::getTableSchema()
+#1 /var/www/basic/vendor/yiisoft/yii2/db/BaseActiveRecord.php(415): yii\db\ActiveRecord->attributes()
+#2 /var/www/basic/vendor/yiisoft/yii2/db/BaseActiveRecord.php(234): yii\db\BaseActiveRecord->hasAttribute('code')
+#3 /var/www/basic/vendor/yiisoft/yii2/helpers/BaseHtml.php(1762): yii\db\BaseActiveRecord->__get('code')
+#4 /var/www/basic/vendor/yiisoft/yii2/helpers/BaseHtml.php(1077): yii\helpers\BaseHtml::getAttributeValue(Object(app\models\CountrySearch), 'code')
+#5 /var/www/basic/vendor/yiisoft/yii2/helpers/BaseHtml.php(1099): yii\helpers\BaseHtml::activeInput('text', Object(app\models\CountrySearch), 'code', Array)
+#6 /var/www/basic/vendor/yiisoft/yii2/grid/DataColumn.php(151): yii\helpers\BaseHtml::activeTextInput(Object(app\models\CountrySearch), 'code', Array)
+#7 /var/www/basic/vendor/yiisoft/yii2/grid/Column.php(110): yii\grid\DataColumn->renderFilterCellContent()
+#8 /var/www/basic/vendor/yiisoft/yii2/grid/GridView.php(340): yii\grid\Column->renderFilterCell()
+#9 /var/www/basic/vendor/yiisoft/yii2/grid/GridView.php(305): yii\grid\GridView->renderFilters()
+#10 /var/www/basic/vendor/yiisoft/yii2/grid/GridView.php(243): yii\grid\GridView->renderTableHeader()
+#11 /var/www/basic/vendor/yiisoft/yii2/widgets/BaseListView.php(137): yii\grid\GridView->renderItems()
+#12 /var/www/basic/vendor/yiisoft/yii2/widgets/BaseListView.php(114): yii\widgets\BaseListView->renderSection('{items}')
+#13 [internal function]: yii\widgets\BaseListView->yii\widgets\{closure}(Array)
+#14 /var/www/basic/vendor/yiisoft/yii2/widgets/BaseListView.php(117): preg_replace_callback('/{\w+}/', Object(Closure), '{summary}?{item...')
+#15 /var/www/basic/vendor/yiisoft/yii2/grid/GridView.php(213): yii\widgets\BaseListView->run()
+#16 /var/www/basic/vendor/yiisoft/yii2/base/Widget.php(97): yii\grid\GridView->run()
+#17 /var/www/basic/views/country/index.php(37): yii\base\Widget::widget(Array)
+#18 /var/www/basic/vendor/yiisoft/yii2/base/View.php(313): require('/var/www/basic/...')
+#19 /var/www/basic/vendor/yiisoft/yii2/base/View.php(245): yii\base\View->renderPhpFile('/var/www/basic/...', Array)
+#20 /var/www/basic/vendor/yiisoft/yii2/base/View.php(147): yii\base\View->renderFile('/var/www/basic/...', Array, Object(app\controllers\CountryController))
+#21 /var/www/basic/vendor/yiisoft/yii2/base/Controller.php(362): yii\base\View->render('index', Array, Object(app\controllers\CountryController))
+#22 /var/www/basic/controllers/CountryController.php(41): yii\base\Controller->render('index', Array)
+#23 [internal function]: app\controllers\CountryController->actionIndex()
+#24 /var/www/basic/vendor/yiisoft/yii2/base/InlineAction.php(54): call_user_func_array(Array, Array)
+#25 /var/www/basic/vendor/yiisoft/yii2/base/Controller.php(147): yii\base\InlineAction->runWithParams(Array)
+#26 /var/www/basic/vendor/yiisoft/yii2/base/Module.php(423): yii\base\Controller->runAction('index', Array)
+#27 /var/www/basic/vendor/yiisoft/yii2/web/Application.php(82): yii\base\Module->runAction('country/index', Array)
+#28 /var/www/basic/vendor/yiisoft/yii2/base/Application.php(353): yii\web\Application->handleRequest(Object(yii\web\Request))
+#29 /var/www/basic/web/index.php(12): yii\base\Application->run()
+#30 {main}
+2014-09-03 09:09:43 [127.0.0.1][-][-][info][application] $_GET = array (
+  'r' => 'country/index',
+)
+
+$_COOKIE = array (
+  '_csrf' => '58219ea65767091bdf6885c3736d9133b3a23ed8412fce030861decaa5b920b3s:32:"LVloS_5FZcyba9PFfEQNUWjqyhsfUbfY";',
+  'PHPSESSID' => 'eiunejms63lmvq89u0rp88li67',
+)
+
+$_SERVER = array (
+  'HTTP_HOST' => 'basic.com',
+  'HTTP_CONNECTION' => 'keep-alive',
+  'HTTP_CACHE_CONTROL' => 'max-age=0',
+  'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/37.0.2062.94 Safari/537.36',
+  'HTTP_ACCEPT_ENCODING' => 'gzip,deflate,sdch',
+  'HTTP_ACCEPT_LANGUAGE' => 'vi,en-US;q=0.8,en;q=0.6,pt;q=0.4',
+  'HTTP_COOKIE' => '_csrf=58219ea65767091bdf6885c3736d9133b3a23ed8412fce030861decaa5b920b3s%3A32%3A%22LVloS_5FZcyba9PFfEQNUWjqyhsfUbfY%22%3B; PHPSESSID=eiunejms63lmvq89u0rp88li67',
+  'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin',
+  'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Ubuntu) Server at basic.com Port 80</address>
+',
+  'SERVER_SOFTWARE' => 'Apache/2.4.7 (Ubuntu)',
+  'SERVER_NAME' => 'basic.com',
+  'SERVER_ADDR' => '127.0.0.3',
+  'SERVER_PORT' => '80',
+  'REMOTE_ADDR' => '127.0.0.1',
+  'DOCUMENT_ROOT' => '/var/www/basic',
+  'REQUEST_SCHEME' => 'http',
+  'CONTEXT_PREFIX' => '',
+  'CONTEXT_DOCUMENT_ROOT' => '/var/www/basic',
+  'SERVER_ADMIN' => 'admin@basic.com',
+  'SCRIPT_FILENAME' => '/var/www/basic/web/index.php',
+  'REMOTE_PORT' => '51097',
+  'GATEWAY_INTERFACE' => 'CGI/1.1',
+  'SERVER_PROTOCOL' => 'HTTP/1.1',
+  'REQUEST_METHOD' => 'GET',
+  'QUERY_STRING' => 'r=country/index',
+  'REQUEST_URI' => '/web/index.php?r=country/index',
+  'SCRIPT_NAME' => '/web/index.php',
+  'PHP_SELF' => '/web/index.php',
+  'REQUEST_TIME_FLOAT' => 1409735383.365,
+  'REQUEST_TIME' => 1409735383,
+)
+2014-09-03 09:11:37 [127.0.0.1][-][-][error][yii\base\InvalidConfigException] exception 'yii\base\InvalidConfigException' with message 'The table does not exist: {{%country_search}}' in /var/www/basic/vendor/yiisoft/yii2/db/ActiveRecord.php:257
+Stack trace:
+#0 /var/www/basic/vendor/yiisoft/yii2/db/ActiveRecord.php(286): yii\db\ActiveRecord::getTableSchema()
+#1 /var/www/basic/vendor/yiisoft/yii2/db/BaseActiveRecord.php(415): yii\db\ActiveRecord->attributes()
+#2 /var/www/basic/vendor/yiisoft/yii2/db/BaseActiveRecord.php(234): yii\db\BaseActiveRecord->hasAttribute('code')
+#3 /var/www/basic/vendor/yiisoft/yii2/helpers/BaseHtml.php(1762): yii\db\BaseActiveRecord->__get('code')
+#4 /var/www/basic/vendor/yiisoft/yii2/helpers/BaseHtml.php(1077): yii\helpers\BaseHtml::getAttributeValue(Object(app\models\CountrySearch), 'code')
+#5 /var/www/basic/vendor/yiisoft/yii2/helpers/BaseHtml.php(1099): yii\helpers\BaseHtml::activeInput('text', Object(app\models\CountrySearch), 'code', Array)
+#6 /var/www/basic/vendor/yiisoft/yii2/grid/DataColumn.php(151): yii\helpers\BaseHtml::activeTextInput(Object(app\models\CountrySearch), 'code', Array)
+#7 /var/www/basic/vendor/yiisoft/yii2/grid/Column.php(110): yii\grid\DataColumn->renderFilterCellContent()
+#8 /var/www/basic/vendor/yiisoft/yii2/grid/GridView.php(340): yii\grid\Column->renderFilterCell()
+#9 /var/www/basic/vendor/yiisoft/yii2/grid/GridView.php(305): yii\grid\GridView->renderFilters()
+#10 /var/www/basic/vendor/yiisoft/yii2/grid/GridView.php(243): yii\grid\GridView->renderTableHeader()
+#11 /var/www/basic/vendor/yiisoft/yii2/widgets/BaseListView.php(137): yii\grid\GridView->renderItems()
+#12 /var/www/basic/vendor/yiisoft/yii2/widgets/BaseListView.php(114): yii\widgets\BaseListView->renderSection('{items}')
+#13 [internal function]: yii\widgets\BaseListView->yii\widgets\{closure}(Array)
+#14 /var/www/basic/vendor/yiisoft/yii2/widgets/BaseListView.php(117): preg_replace_callback('/{\w+}/', Object(Closure), '{summary}?{item...')
+#15 /var/www/basic/vendor/yiisoft/yii2/grid/GridView.php(213): yii\widgets\BaseListView->run()
+#16 /var/www/basic/vendor/yiisoft/yii2/base/Widget.php(97): yii\grid\GridView->run()
+#17 /var/www/basic/views/country/index.php(37): yii\base\Widget::widget(Array)
+#18 /var/www/basic/vendor/yiisoft/yii2/base/View.php(313): require('/var/www/basic/...')
+#19 /var/www/basic/vendor/yiisoft/yii2/base/View.php(245): yii\base\View->renderPhpFile('/var/www/basic/...', Array)
+#20 /var/www/basic/vendor/yiisoft/yii2/base/View.php(147): yii\base\View->renderFile('/var/www/basic/...', Array, Object(app\controllers\CountryController))
+#21 /var/www/basic/vendor/yiisoft/yii2/base/Controller.php(362): yii\base\View->render('index', Array, Object(app\controllers\CountryController))
+#22 /var/www/basic/controllers/CountryController.php(41): yii\base\Controller->render('index', Array)
+#23 [internal function]: app\controllers\CountryController->actionIndex()
+#24 /var/www/basic/vendor/yiisoft/yii2/base/InlineAction.php(54): call_user_func_array(Array, Array)
+#25 /var/www/basic/vendor/yiisoft/yii2/base/Controller.php(147): yii\base\InlineAction->runWithParams(Array)
+#26 /var/www/basic/vendor/yiisoft/yii2/base/Module.php(423): yii\base\Controller->runAction('index', Array)
+#27 /var/www/basic/vendor/yiisoft/yii2/web/Application.php(82): yii\base\Module->runAction('country/index', Array)
+#28 /var/www/basic/vendor/yiisoft/yii2/base/Application.php(353): yii\web\Application->handleRequest(Object(yii\web\Request))
+#29 /var/www/basic/web/index.php(12): yii\base\Application->run()
+#30 {main}
+2014-09-03 09:11:37 [127.0.0.1][-][-][info][application] $_GET = array (
+  'r' => 'country/index',
+)
+
+$_COOKIE = array (
+  '_csrf' => '58219ea65767091bdf6885c3736d9133b3a23ed8412fce030861decaa5b920b3s:32:"LVloS_5FZcyba9PFfEQNUWjqyhsfUbfY";',
+  'PHPSESSID' => 'eiunejms63lmvq89u0rp88li67',
+)
+
+$_SERVER = array (
+  'HTTP_HOST' => 'basic.com',
+  'HTTP_CONNECTION' => 'keep-alive',
+  'HTTP_CACHE_CONTROL' => 'max-age=0',
+  'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/37.0.2062.94 Safari/537.36',
+  'HTTP_ACCEPT_ENCODING' => 'gzip,deflate,sdch',
+  'HTTP_ACCEPT_LANGUAGE' => 'vi,en-US;q=0.8,en;q=0.6,pt;q=0.4',
+  'HTTP_COOKIE' => '_csrf=58219ea65767091bdf6885c3736d9133b3a23ed8412fce030861decaa5b920b3s%3A32%3A%22LVloS_5FZcyba9PFfEQNUWjqyhsfUbfY%22%3B; PHPSESSID=eiunejms63lmvq89u0rp88li67',
+  'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin',
+  'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Ubuntu) Server at basic.com Port 80</address>
+',
+  'SERVER_SOFTWARE' => 'Apache/2.4.7 (Ubuntu)',
+  'SERVER_NAME' => 'basic.com',
+  'SERVER_ADDR' => '127.0.0.3',
+  'SERVER_PORT' => '80',
+  'REMOTE_ADDR' => '127.0.0.1',
+  'DOCUMENT_ROOT' => '/var/www/basic',
+  'REQUEST_SCHEME' => 'http',
+  'CONTEXT_PREFIX' => '',
+  'CONTEXT_DOCUMENT_ROOT' => '/var/www/basic',
+  'SERVER_ADMIN' => 'admin@basic.com',
+  'SCRIPT_FILENAME' => '/var/www/basic/web/index.php',
+  'REMOTE_PORT' => '51107',
+  'GATEWAY_INTERFACE' => 'CGI/1.1',
+  'SERVER_PROTOCOL' => 'HTTP/1.1',
+  'REQUEST_METHOD' => 'GET',
+  'QUERY_STRING' => 'r=country/index',
+  'REQUEST_URI' => '/web/index.php?r=country/index',
+  'SCRIPT_NAME' => '/web/index.php',
+  'PHP_SELF' => '/web/index.php',
+  'REQUEST_TIME_FLOAT' => 1409735497.5539999,
+  'REQUEST_TIME' => 1409735497,
+)
+2014-09-03 09:19:55 [127.0.0.1][-][-][error][yii\base\InvalidConfigException] exception 'yii\base\InvalidConfigException' with message 'The table does not exist: {{%country_search}}' in /var/www/basic/vendor/yiisoft/yii2/db/ActiveRecord.php:257
+Stack trace:
+#0 /var/www/basic/vendor/yiisoft/yii2/db/ActiveRecord.php(286): yii\db\ActiveRecord::getTableSchema()
+#1 /var/www/basic/vendor/yiisoft/yii2/db/BaseActiveRecord.php(415): yii\db\ActiveRecord->attributes()
+#2 /var/www/basic/vendor/yiisoft/yii2/db/BaseActiveRecord.php(234): yii\db\BaseActiveRecord->hasAttribute('code')
+#3 /var/www/basic/vendor/yiisoft/yii2/helpers/BaseHtml.php(1762): yii\db\BaseActiveRecord->__get('code')
+#4 /var/www/basic/vendor/yiisoft/yii2/helpers/BaseHtml.php(1077): yii\helpers\BaseHtml::getAttributeValue(Object(app\models\CountrySearch), 'code')
+#5 /var/www/basic/vendor/yiisoft/yii2/helpers/BaseHtml.php(1099): yii\helpers\BaseHtml::activeInput('text', Object(app\models\CountrySearch), 'code', Array)
+#6 /var/www/basic/vendor/yiisoft/yii2/grid/DataColumn.php(151): yii\helpers\BaseHtml::activeTextInput(Object(app\models\CountrySearch), 'code', Array)
+#7 /var/www/basic/vendor/yiisoft/yii2/grid/Column.php(110): yii\grid\DataColumn->renderFilterCellContent()
+#8 /var/www/basic/vendor/yiisoft/yii2/grid/GridView.php(340): yii\grid\Column->renderFilterCell()
+#9 /var/www/basic/vendor/yiisoft/yii2/grid/GridView.php(305): yii\grid\GridView->renderFilters()
+#10 /var/www/basic/vendor/yiisoft/yii2/grid/GridView.php(243): yii\grid\GridView->renderTableHeader()
+#11 /var/www/basic/vendor/yiisoft/yii2/widgets/BaseListView.php(137): yii\grid\GridView->renderItems()
+#12 /var/www/basic/vendor/yiisoft/yii2/widgets/BaseListView.php(114): yii\widgets\BaseListView->renderSection('{items}')
+#13 [internal function]: yii\widgets\BaseListView->yii\widgets\{closure}(Array)
+#14 /var/www/basic/vendor/yiisoft/yii2/widgets/BaseListView.php(117): preg_replace_callback('/{\w+}/', Object(Closure), '{summary}?{item...')
+#15 /var/www/basic/vendor/yiisoft/yii2/grid/GridView.php(213): yii\widgets\BaseListView->run()
+#16 /var/www/basic/vendor/yiisoft/yii2/base/Widget.php(97): yii\grid\GridView->run()
+#17 /var/www/basic/views/country/index.php(37): yii\base\Widget::widget(Array)
+#18 /var/www/basic/vendor/yiisoft/yii2/base/View.php(313): require('/var/www/basic/...')
+#19 /var/www/basic/vendor/yiisoft/yii2/base/View.php(245): yii\base\View->renderPhpFile('/var/www/basic/...', Array)
+#20 /var/www/basic/vendor/yiisoft/yii2/base/View.php(147): yii\base\View->renderFile('/var/www/basic/...', Array, Object(app\controllers\CountryController))
+#21 /var/www/basic/vendor/yiisoft/yii2/base/Controller.php(362): yii\base\View->render('index', Array, Object(app\controllers\CountryController))
+#22 /var/www/basic/controllers/CountryController.php(41): yii\base\Controller->render('index', Array)
+#23 [internal function]: app\controllers\CountryController->actionIndex()
+#24 /var/www/basic/vendor/yiisoft/yii2/base/InlineAction.php(54): call_user_func_array(Array, Array)
+#25 /var/www/basic/vendor/yiisoft/yii2/base/Controller.php(147): yii\base\InlineAction->runWithParams(Array)
+#26 /var/www/basic/vendor/yiisoft/yii2/base/Module.php(423): yii\base\Controller->runAction('index', Array)
+#27 /var/www/basic/vendor/yiisoft/yii2/web/Application.php(82): yii\base\Module->runAction('country/index', Array)
+#28 /var/www/basic/vendor/yiisoft/yii2/base/Application.php(353): yii\web\Application->handleRequest(Object(yii\web\Request))
+#29 /var/www/basic/web/index.php(12): yii\base\Application->run()
+#30 {main}
+2014-09-03 09:19:55 [127.0.0.1][-][-][info][application] $_GET = array (
+  'r' => 'country/index',
+)
+
+$_COOKIE = array (
+  '_csrf' => '58219ea65767091bdf6885c3736d9133b3a23ed8412fce030861decaa5b920b3s:32:"LVloS_5FZcyba9PFfEQNUWjqyhsfUbfY";',
+  'PHPSESSID' => 'eiunejms63lmvq89u0rp88li67',
+)
+
+$_SERVER = array (
+  'HTTP_HOST' => 'basic.com',
+  'HTTP_CONNECTION' => 'keep-alive',
+  'HTTP_CACHE_CONTROL' => 'max-age=0',
+  'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/37.0.2062.94 Safari/537.36',
+  'HTTP_ACCEPT_ENCODING' => 'gzip,deflate,sdch',
+  'HTTP_ACCEPT_LANGUAGE' => 'vi,en-US;q=0.8,en;q=0.6,pt;q=0.4',
+  'HTTP_COOKIE' => '_csrf=58219ea65767091bdf6885c3736d9133b3a23ed8412fce030861decaa5b920b3s%3A32%3A%22LVloS_5FZcyba9PFfEQNUWjqyhsfUbfY%22%3B; PHPSESSID=eiunejms63lmvq89u0rp88li67',
+  'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin',
+  'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Ubuntu) Server at basic.com Port 80</address>
+',
+  'SERVER_SOFTWARE' => 'Apache/2.4.7 (Ubuntu)',
+  'SERVER_NAME' => 'basic.com',
+  'SERVER_ADDR' => '127.0.0.3',
+  'SERVER_PORT' => '80',
+  'REMOTE_ADDR' => '127.0.0.1',
+  'DOCUMENT_ROOT' => '/var/www/basic',
+  'REQUEST_SCHEME' => 'http',
+  'CONTEXT_PREFIX' => '',
+  'CONTEXT_DOCUMENT_ROOT' => '/var/www/basic',
+  'SERVER_ADMIN' => 'admin@basic.com',
+  'SCRIPT_FILENAME' => '/var/www/basic/web/index.php',
+  'REMOTE_PORT' => '51132',
+  'GATEWAY_INTERFACE' => 'CGI/1.1',
+  'SERVER_PROTOCOL' => 'HTTP/1.1',
+  'REQUEST_METHOD' => 'GET',
+  'QUERY_STRING' => 'r=country/index',
+  'REQUEST_URI' => '/web/index.php?r=country/index',
+  'SCRIPT_NAME' => '/web/index.php',
+  'PHP_SELF' => '/web/index.php',
+  'REQUEST_TIME_FLOAT' => 1409735995.96,
+  'REQUEST_TIME' => 1409735995,
+)
+2014-09-03 09:52:55 [127.0.0.1][-][-][error][yii\db\Exception] exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'us' for key 'PRIMARY'' in /var/www/basic/vendor/yiisoft/yii2/db/Command.php:279
+Stack trace:
+#0 /var/www/basic/vendor/yiisoft/yii2/db/Command.php(279): PDOStatement->execute()
+#1 /var/www/basic/vendor/yiisoft/yii2/db/ActiveRecord.php(419): yii\db\Command->execute()
+#2 /var/www/basic/vendor/yiisoft/yii2/db/ActiveRecord.php(394): yii\db\ActiveRecord->insertInternal(NULL)
+#3 /var/www/basic/vendor/yiisoft/yii2/db/BaseActiveRecord.php(576): yii\db\ActiveRecord->insert(true, NULL)
+#4 /var/www/basic/controllers/CountryController.php(65): yii\db\BaseActiveRecord->save()
+#5 [internal function]: app\controllers\CountryController->actionCreate()
+#6 /var/www/basic/vendor/yiisoft/yii2/base/InlineAction.php(54): call_user_func_array(Array, Array)
+#7 /var/www/basic/vendor/yiisoft/yii2/base/Controller.php(147): yii\base\InlineAction->runWithParams(Array)
+#8 /var/www/basic/vendor/yiisoft/yii2/base/Module.php(423): yii\base\Controller->runAction('create', Array)
+#9 /var/www/basic/vendor/yiisoft/yii2/web/Application.php(82): yii\base\Module->runAction('country/create', Array)
+#10 /var/www/basic/vendor/yiisoft/yii2/base/Application.php(353): yii\web\Application->handleRequest(Object(yii\web\Request))
+#11 /var/www/basic/web/index.php(12): yii\base\Application->run()
+#12 {main}
+
+Next exception 'yii\db\Exception' with message 'SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'us' for key 'PRIMARY'
+The SQL being executed was: INSERT INTO `country` (`code`, `name`, `population`) VALUES ('us', 'United States', 278357000)' in /var/www/basic/vendor/yiisoft/yii2/db/Command.php:292
+Stack trace:
+#0 /var/www/basic/vendor/yiisoft/yii2/db/ActiveRecord.php(419): yii\db\Command->execute()
+#1 /var/www/basic/vendor/yiisoft/yii2/db/ActiveRecord.php(394): yii\db\ActiveRecord->insertInternal(NULL)
+#2 /var/www/basic/vendor/yiisoft/yii2/db/BaseActiveRecord.php(576): yii\db\ActiveRecord->insert(true, NULL)
+#3 /var/www/basic/controllers/CountryController.php(65): yii\db\BaseActiveRecord->save()
+#4 [internal function]: app\controllers\CountryController->actionCreate()
+#5 /var/www/basic/vendor/yiisoft/yii2/base/InlineAction.php(54): call_user_func_array(Array, Array)
+#6 /var/www/basic/vendor/yiisoft/yii2/base/Controller.php(147): yii\base\InlineAction->runWithParams(Array)
+#7 /var/www/basic/vendor/yiisoft/yii2/base/Module.php(423): yii\base\Controller->runAction('create', Array)
+#8 /var/www/basic/vendor/yiisoft/yii2/web/Application.php(82): yii\base\Module->runAction('country/create', Array)
+#9 /var/www/basic/vendor/yiisoft/yii2/base/Application.php(353): yii\web\Application->handleRequest(Object(yii\web\Request))
+#10 /var/www/basic/web/index.php(12): yii\base\Application->run()
+#11 {main}
+Additional Information:
+Array
+(
+    [0] => 23000
+    [1] => 1062
+    [2] => Duplicate entry 'us' for key 'PRIMARY'
+)
+
+2014-09-03 09:52:55 [127.0.0.1][-][-][info][application] $_GET = array (
+  'r' => 'country/create',
+)
+
+$_POST = array (
+  '_csrf' => 'N3o2MlVMZnd7LFpdBhNTMW0ZT1A0dTYxUT9nfAAbDAZOEkVUAC4ALg==',
+  'Country' => 
+  array (
+    'code' => 'us',
+    'name' => 'United States',
+    'population' => '278357000',
+  ),
+)
+
+$_COOKIE = array (
+  '_csrf' => '58219ea65767091bdf6885c3736d9133b3a23ed8412fce030861decaa5b920b3s:32:"LVloS_5FZcyba9PFfEQNUWjqyhsfUbfY";',
+  'PHPSESSID' => 'eiunejms63lmvq89u0rp88li67',
+)
+
+$_SERVER = array (
+  'HTTP_HOST' => 'basic.com',
+  'HTTP_CONNECTION' => 'keep-alive',
+  'CONTENT_LENGTH' => '153',
+  'HTTP_CACHE_CONTROL' => 'max-age=0',
+  'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'HTTP_ORIGIN' => 'http://basic.com',
+  'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/37.0.2062.94 Safari/537.36',
+  'CONTENT_TYPE' => 'application/x-www-form-urlencoded',
+  'HTTP_REFERER' => 'http://basic.com/web/index.php?r=country/create',
+  'HTTP_ACCEPT_ENCODING' => 'gzip,deflate',
+  'HTTP_ACCEPT_LANGUAGE' => 'vi,en-US;q=0.8,en;q=0.6,pt;q=0.4',
+  'HTTP_COOKIE' => '_csrf=58219ea65767091bdf6885c3736d9133b3a23ed8412fce030861decaa5b920b3s%3A32%3A%22LVloS_5FZcyba9PFfEQNUWjqyhsfUbfY%22%3B; PHPSESSID=eiunejms63lmvq89u0rp88li67',
+  'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin',
+  'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Ubuntu) Server at basic.com Port 80</address>
+',
+  'SERVER_SOFTWARE' => 'Apache/2.4.7 (Ubuntu)',
+  'SERVER_NAME' => 'basic.com',
+  'SERVER_ADDR' => '127.0.0.3',
+  'SERVER_PORT' => '80',
+  'REMOTE_ADDR' => '127.0.0.1',
+  'DOCUMENT_ROOT' => '/var/www/basic',
+  'REQUEST_SCHEME' => 'http',
+  'CONTEXT_PREFIX' => '',
+  'CONTEXT_DOCUMENT_ROOT' => '/var/www/basic',
+  'SERVER_ADMIN' => 'admin@basic.com',
+  'SCRIPT_FILENAME' => '/var/www/basic/web/index.php',
+  'REMOTE_PORT' => '51391',
+  'GATEWAY_INTERFACE' => 'CGI/1.1',
+  'SERVER_PROTOCOL' => 'HTTP/1.1',
+  'REQUEST_METHOD' => 'POST',
+  'QUERY_STRING' => 'r=country/create',
+  'REQUEST_URI' => '/web/index.php?r=country/create',
+  'SCRIPT_NAME' => '/web/index.php',
+  'PHP_SELF' => '/web/index.php',
+  'REQUEST_TIME_FLOAT' => 1409737975.306,
+  'REQUEST_TIME' => 1409737975,
+)
